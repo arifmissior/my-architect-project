@@ -1,5 +1,5 @@
 /* font style */
-/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -64,9 +64,13 @@ nav a {
 .fact-container {
   margin: 50px;
 }
+.fact-container > h1 {
+  width: 256px;
+  font-size: 700;
+}
 .fact-container > p {
   width: 40%;
-  margin: 30px;
+  margin-bottom: 5%;
 }
 .facts {
   display: flex;
@@ -94,3 +98,13 @@ nav a {
 }
 
 /* sponsor styles end  */
+
+/* footer styles start */
+
+footer p {
+  text-align: center;
+  color: #424242;
+  background-color: #fff4e7;
+  padding: 2%;
+  margin: 3%;
+}

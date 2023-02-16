@@ -1,0 +1,64 @@
+/* font style */
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"); */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header part styles */
+
+header {
+  background-color: rgba(255, 144, 14, 0.2);
+  background-blend-mode: overlay;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: #424242;
+}
+.nav-names {
+  font-size: 18px;
+}
+.primary-btn {
+  background-color: #ff900e;
+  color: #ffff;
+  width: 140px;
+  height: 64px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+.head-info {
+  display: flex;
+}
+.header-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-discription h1 {
+  font-weight: 900;
+}
+.header-discription p {
+  width: 40%;
+}
+
+.head-info img {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+/* header part styles end */
+
+/* Main part style */
+
+.features {
+  display: flex;
+}

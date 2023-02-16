@@ -82,6 +82,44 @@ nav a {
 
 /* feature styles end */
 
+/* thought styles start */
+
+.thoughts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.thoughts-title {
+  border-left: 4px solid #ff900e;
+}
+.box {
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 3px;
+}
+.box p {
+  font-weight: 400px;
+  font-size: 16px;
+  color: #727272;
+}
+.thoughts-arch img {
+  width: 80%;
+  margin-left: 2%;
+}
+.year-btn {
+  background-color: #ff900e;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  margin-top: -20%;
+}
+
+/* thought styles end */
+
 /* fact styles start */
 
 .fact-container {
@@ -131,3 +169,5 @@ footer p {
   padding: 2%;
   margin: 3%;
 }
+
+/* footer part end */

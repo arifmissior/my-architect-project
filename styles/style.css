@@ -59,12 +59,38 @@ nav a {
 
 /* Main part style */
 
-.features {
-  display: flex;
-}
+/* fact styles start */
 
+.fact-container {
+  margin: 50px;
+}
+.fact-container > p {
+  width: 40%;
+  margin: 30px;
+}
 .facts {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px;
 }
+
+/* fact styles end */
+
+/* sponsor styles starts */
+
+.sponsor-container {
+  text-align: center;
+  margin: 10%;
+}
+
+.sponsor-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+  padding: 2%;
+}
+.sponsor-icon {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* sponsor styles end  */

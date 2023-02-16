@@ -1,6 +1,4 @@
 /* font style */
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
-
 body {
   font-family: "Work Sans", sans-serif;
 }
@@ -58,6 +56,31 @@ nav a {
 /* header part styles end */
 
 /* Main part style */
+
+/* feature styles start */
+.feature-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.feature-photos {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10%;
+}
+.feature-photos img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.feature-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* feature styles end */
 
 /* fact styles start */
 
